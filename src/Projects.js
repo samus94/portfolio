@@ -10,20 +10,20 @@ class Main extends Component {
                 <h1>
                     Recent Projects
                 </h1>
-                <div className="image-box">
-                    <a href='https://github.com/samus94/TicTacSpecial' target='_blank' >
-                        <img src={TicTac} className="project-image" ></img>
-                    </a>
-                    <div className="project-name">
-                        <p>Tic-Tac-Special</p>
+
+                <div className="project-images"> 
+                    <div className="image-box">
+                        <a href='https://github.com/samus94/TicTacSpecial' target='_blank' >
+                            <img src={TicTac} className="project-image" ></img>
+                            <p>Tic-Tac SPecial</p>
+                        </a>
                     </div>
-                </div>
-                <div className="image-box">   
-                    <a href='https://github.com/samus94/Project-Two' target='_blank'>
-                        <img src={GameShare} className="project-image" ></img>
-                    </a>
-                    <div className="project-name">
-                        <p>Gameshare</p>
+
+                    <div className="image-box">   
+                        <a href='https://github.com/samus94/Project-Two' target='_blank'>
+                            <img src={GameShare} className="project-image" ></img>
+                            <p>Gameshare</p>
+                        </a>
                     </div>
                 </div>
             </div>
